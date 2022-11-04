@@ -46,7 +46,7 @@ st.write("Model loaded")
 result = model.predict(df)
 st.subheader('Predicted Result')
 
-if result[0]=="No":
+if result[0]==0:
     st.write("Customer will not Churn")
     
 else:
